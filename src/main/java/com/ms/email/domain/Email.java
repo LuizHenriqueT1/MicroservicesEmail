@@ -6,7 +6,10 @@ import lombok.Data;
 
 import java.io.Serializable;
 import java.time.LocalDateTime;
+<<<<<<< HEAD
 import java.util.UUID;
+=======
+>>>>>>> origin/main
 
 @Data
 @Entity
@@ -16,7 +19,11 @@ public class Email implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
+<<<<<<< HEAD
     private UUID emailID;
+=======
+    private Long emailID;
+>>>>>>> origin/main
     private String ownerRef;
     private String emailFrom;
     private String emailTo;
