@@ -1,3 +1,3 @@
 # MicroservicesEmail
 
-#Projeto de aprendizado para enviar email com Spring Boot
+# Projeto para envio de e-mail com Spring Boot
